@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Main</title>
+	<style>
+		* { }
+		body { 
+ 		  margin: 0; padding: 0;
+ 		  background-image: url('images/숲.jpg');
+ 		  background-repeat: no-repeat;
+ 		  background-size: 100% 100%;
+
+		}
+		p{
+			margin: 30px;
+		}
+		#menu{
+			width: 10%;	height: 5%;
+			background-color: yellow;
+			position: absolute;
+			top: 5%;	right: 5%;
+		}
+		#character{
+			width: 70%; height: 40%;
+			text-align: center;
+			margin: auto;	
+			position: absolute;
+			top: 20%;	left: 15%;
+			background-image: url('images/contact.png');
+			background-repeat: no-repeat;
+ 		 	background-size: 100% 100%;
+		}
+		#text{
+			width: 80%; height: 28%;
+			background-image: url('images/a0e50269704356a9e8d5ec2e74021ad5.png');
+			background-size:100% 100%;
+			background-repeat: no-repeat;
+			position: absolute;
+			bottom: 10%;	left: 10%;
+			font-size: 3em;
+			padding-top: 5%; 
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="menu">
+		<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">메뉴</a>
+	</div>	
+	<div id="character">
+		여기다 케릭터
+	</div>
+	<div id="text">
+		<p>
+			<input type="checkbox" style="width:50px;height:50px;">텍스트1</input>
+		</p>
+		<p>
+			<input type="checkbox" style="width:50px;height:50px;">텍스트2</input>
+		</p>
+		<p>
+			<input type="checkbox" style="width:50px;height:50px;">텍스트3</input>
+		</p>
+	</div>
+</body>
+</html>
