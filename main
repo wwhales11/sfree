@@ -5,7 +5,7 @@
 		* { }
 		body { 
  		  margin: 0; padding: 0;
- 		  background-image: url('images/숲.jpg');
+ 		  background-image: url("");
  		  background-repeat: no-repeat;
  		  background-size: 100% 100%;
 
@@ -25,7 +25,7 @@
 			margin: auto;	
 			position: absolute;
 			top: 20%;	left: 15%;
-			background-image: url('images/contact.png');
+			background-image: url('images/tree.png');
 			background-repeat: no-repeat;
  		 	background-size: 100% 100%;
 		}
@@ -47,7 +47,7 @@
 		<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">메뉴</a>
 	</div>	
 	<div id="character">
-		여기다 케릭터
+		
 	</div>
 	<div id="text">
 		<p>
