@@ -1,0 +1,115 @@
+<html>
+<head>
+	<title>Menu</title>
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+	<style type="text/css">
+		* { }
+		body { 
+ 		  margin: 0; padding: 0;
+ 		  background-image: url("file:///C:/Users/segye/Desktop/웹프로그래밍/웹프%20프로젝트/images/나뭇잎추상.png");
+ 		  background-repeat: no-repeat;
+ 		  background-size: 100% 100%;
+
+		}
+		
+		#home{
+			width: 10%;	height: 5%;
+			background-image: url('images/home.png');
+			position: absolute;
+			top: 7%;	left: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% 100%;
+		}
+
+		#back{
+			width: 10%;	height: 5%;
+			background-image: url('images/back.png');
+			position: absolute;
+			top: 7%;	right: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% auto;
+		}
+
+		#title{display:table; }
+		#title>p{display:table-cell; text-align:center; vertical-align:middle;}
+
+		#title{
+			width: 50%; height: 10%; 
+			border: 2px solid white;
+			border-radius: 10px;
+			position: absolute;
+			top: 5%;	left: 25%;
+			font-size: 2em;
+			text-align: center;
+		}
+
+		
+		a{color: black; text-decoration: none;}
+
+		.menu>div{display:table; }
+		.menu a{display:table-cell; text-align:center; vertical-align:middle;}
+
+		.box1 {
+			width: 70%; height: 15%; 
+			border: 2px solid white;
+			border-radius: 10px;
+			position: absolute;
+			bottom: 60%;	left: 15%;
+			font-size: 2em;
+			text-align: center;
+		}
+
+		.box2 {
+			width: 70%; height: 15%; 
+			border: 2px solid white;
+			border-radius: 10px;
+			position: absolute;
+			bottom: 35%;	left: 15%;
+			font-size: 2em;
+			text-align: center;
+		}
+
+		.box3 {
+			width: 70%; height: 15%; 
+			border: 2px solid white;
+			border-radius: 10px;
+			position: absolute;
+			bottom: 10%;	left: 15%;
+			font-size: 2em;
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">
+		<div id="home">
+		</div>	
+	</a>
+
+	<div id="title"><p>메뉴</p></div>
+
+	<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">
+		<div id="back">
+		</div>
+	</a>
+
+	<div class="menu">
+		<div class="box1">
+			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">
+				목표설정
+			</a>
+		</div>
+		<div class="box2">
+			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/test1.html">
+				테스트
+			</a>
+		</div>
+		<div class="box3">
+			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/record.html">
+				과거기록
+			</a>
+		</div>
+	</div>
+</body>
+</html>
