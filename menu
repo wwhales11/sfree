@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>Menu</title>
+	<style>
+		* { }
+		body { 
+ 		  margin: 0; padding: 0;
+ 		  background-image: url("file:///C:/Users/segye/Desktop/웹프로그래밍/웹프%20프로젝트/images/나뭇잎추상.png");
+ 		  background-repeat: no-repeat;
+ 		  background-size: 100% 100%;
+
+		}
+		
+		#home{
+			width: 10%;	height: 5%;
+			background-color: white;
+			position: absolute;
+			top: 5%;	left: 5%;
+		}
+
+		#back{
+			width: 10%;	height: 5%;
+			background-color: white;
+			position: absolute;
+			top: 5%;	right: 5%;
+		}
+
+		#title{
+			width: 50%; height: 10%; 
+			background-color: white;
+			position: absolute;
+			top: 5%;	left: 25%;
+			font-size: 5em;
+			text-align: center;
+		}
+
+		.box1 {
+			width: 70%; height: 15%; 
+			background-color: white;
+			position: absolute;
+			bottom: 60%;	left: 15%;
+			font-size: 7em;
+			text-align: center;
+		}
+
+		.box2 {
+			width: 70%; height: 15%; 
+			background-color: white;
+			position: absolute;
+			bottom: 35%;	left: 15%;
+			font-size: 7em;
+			text-align: center;
+		}
+
+		.box3 {
+			width: 70%; height: 15%; 
+			background-color: white;
+			position: absolute;
+			bottom: 10%;	left: 15%;
+			font-size: 7em;
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="home">
+		<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">홈</a>
+	</div>	
+	
+	<div id="title">메뉴</div>
+
+	<div id="back">
+		<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">뒤로</a>
+	</div>
+
+	<div>
+		<div class="box1">
+			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">
+				목표설정
+			</a>
+		</div>
+		<div class="box2">
+			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">
+				테스트
+			</a>
+		</div>
+		<div class="box3">
+			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/record.html">
+				과거기록
+			</a>
+		</div>
+	</div>
+</body>
+</html>
