@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>Record</title>
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+	<style>
+		* { }
+		body {
+ 		  margin: 0; padding: 0;
+			background-image: url("https://user-images.githubusercontent.com/39898180/41355758-37e65a30-6f5d-11e8-8726-f7e3933ae806.png");
+ 		  background-repeat: no-repeat;
+ 		  background-size: 100% 100%;
+
+		}
+
+		#home{
+			width: 10%;	height: 5%;
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355760-3840bb42-6f5d-11e8-9f47-934d750a9b79.png');
+			position: absolute;
+			top: 7%;	left: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% 100%;
+		}
+
+		#back{
+			width: 10%;	height: 5%;
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355759-381483e2-6f5d-11e8-9431-e0ce5d1fe6ba.png');
+			position: absolute;
+			top: 7%;	right: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% auto;
+		}
+
+		#title{display:table; }
+		#title>p{display:table-cell; text-align:center; vertical-align:middle;}
+
+		#title{
+			width: 50%; height: 10%;
+			border: 2px solid white;
+			border-radius: 10px;
+			position: absolute;
+			top: 5%;	left: 25%;
+			font-size: 2em;
+			text-align: center;
+		}
+
+    #text{
+      width: 80%; height: 80%;
+      background-image: url('');
+      background-size:100% 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 15%;	left: 10%;
+      font-size: 1.5em;
+      padding-top: 5%;
+      text-align: left;
+    }
+
+    #plus{
+			width: 10%;	height: 5%;
+			background-image: url('https://user-images.githubusercontent.com/39898180/41365620-d1d116be-6f74-11e8-8a88-12b528c73e65.png');
+			position: absolute;
+			bottom: 10%;	left: 50%; transform:translateX(-50%);
+			background-repeat: no-repeat;
+ 		 	background-size: 100% 100%;
+		}
+
+  </style>
+</head>
+<body>
+  <a href="https://gyeongse.github.io/WP/main.html">
+		<div id="home">
+		</div>
+	</a>
+
+	<div id="title"><p>목표설정</p></div>
+
+	<a href="https://gyeongse.github.io/WP/menu.html">
+		<div id="back">
+		</div>
+	</a>
+
+  <div id="text">
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">차 한잔 마시기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">조용한 음악 20분 듣기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">자연풍경 사진보기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">10분간 스트레칭하기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">심호흡 5번하기 </input>
+    </p>
+  </div>
+
+
+		<div id="plus">
+		</div>
+
+</body>
