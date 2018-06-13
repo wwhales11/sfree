@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>result</title>
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+<style type="text/css">
+* { }
+body {
+	margin: 0;
+}
+.section {
+	float: left;
+	width: 100%;
+} 
+#header-area {
+	background-color: #6AF;
+}
+#header-area h3 {
+	margin: 12px 0px;
+	color: white;
+	display: inline;
+}
+#contents-area h2 {
+	margin: 12px 0px;
+   	text-align: center;
+}
+p {
+	margin: 20px 15px;
+} 	
+.home {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.home .icon {
+	float: left;
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding: 10px;   
+	position: relative;
+	margin-right: 12px;
+	overflow: hidden;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+</style>
+</head>
+<body>
+<div id="header-area" class="section">
+	<div class="home">
+		<h3>SFREE result</h3>
+		<a class="icon" style="background-image: url('images/home.png')" href="./sfree.html"></a>
+	</div>      
+</div>
+<div id="contents-area" class="section">
+	<h2>Test Results</h2>
+	<p>13~16점은 경도 스트레스, 16~18점은 중등도 스트레스(우울증 불안증 검사필요), 18점 이상은 심한 스트레스로써 전문의사와의 상담이 필요합니다.</p> 
+</body>
+</html>
