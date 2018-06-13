@@ -51,7 +51,7 @@ p {
 <div id="header-area" class="section">
 	<div class="home">
 		<h3>SFREE result</h3>
-		<a class="icon" style="background-image: url('images/home.png')" href="./sfree.html"></a>
+		<a class="icon" style="background-image: url('images/home.png')" href="./main.html"></a>
 	</div>      
 </div>
 <div id="contents-area" class="section">
