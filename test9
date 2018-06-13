@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+	<title>SFREE_test</title>
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+	<style type="text/css">
+	* { }
+	body {
+		margin: 0;
+	}
+	.section {
+		float: left;
+		width: 100%;
+	} 
+	#header-area {
+		background-color: #6AF;
+	}
+	#header-area h3 {
+		margin: 12px 0px;
+		color: white;
+		display: inline;
+	}
+	#menu-area ul {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 12px 0px;
+		border-bottom: 1px solid #DDD;
+	}
+	#menu-area li {
+		float: left;
+		padding: 0px 8px;
+		list-style: none;
+		font-size: 0.85em;
+		font-weight: bold;
+	}
+	#contents-area 
+	h2 {
+		margin: 20px 15px;
+	}
+	b {
+		float: left;
+		width: 92%;
+		margin: 10px 15px;
+		padding: 10px 0px;
+	}
+	p {
+		margin: 20px 15px;
+	} 
+	#footer-area {
+		margin-top: 30px;
+		position:absolute;
+		bottom:0;
+		padding: 30px 0px;
+		text-align: center;
+		color: #555;
+		font-size: 0.8em;
+	}
+	.btn{
+		text-decoration: none;
+		font-size: 1.5em;
+		color: black;
+		padding: 10px 20px 10px 20px;
+		margin : 50px;
+		display: inline-block; 
+	}
+	.home {
+		float: left;
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.home .icon {
+		float: left;
+		width: 30px;
+		height: 30px;
+		box-sizing: border-box;
+		padding: 10px;   
+		position: relative;
+		margin-right: 12px;
+		overflow: hidden;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	a {
+		text-decoration: black;
+		color: black;
+	}
+	</style>
+</head>
+<body>
+	<div id="header-area" class="section">
+		<div class="home">
+			<h3>SFREE test</h3>
+				<a class="icon" style="background-image: url('images/home.png')" href="./main.html"></a>
+		</div>    
+	</div>
+	<div id="menu-area" class="section">
+		<ul>
+			<a href="./test1.html"><li>Q1</li></a>
+			<a href="./test2.html"><li>Q2</li></a>
+			<a href="./test3.html"><li>Q3</li></a>
+			<a href="./test4.html"><li>Q4</li></a>
+			<a href="./test5.html"><li>Q5</li></a>
+			<a href="./test6.html"><li>Q6</li></a>
+			<a href="./test7.html"><li>Q7</li></a>
+			<a href="./test8.html"><li>Q8</li></a>
+			<a href="./test9.html"><li>Q9</li></a>
+			<a href="./test10.html"><li>Q10</li></a>
+		</ul>
+	</div>
+	<div id="contents-area" class="section">
+			<h2>Q9</h2> 
+			<b>
+			지난 한 달 동안, 당신이 통제할 수 없는 범위에서 발생한 일 때문에 화가난 적이 얼마나 있었나요?  
+			</b>  
+
+			<p>
+				<label><input type="radio" name="e";>전혀 아니다</input></label>
+			</p>
+			<p>
+				<label><input type="radio" name="e";>거의 아니다</input></label>
+			</p>
+			<p>
+				<label><input type="radio" name="e";>가끔</input></label>
+			</p>
+			<p>
+				<label><input type="radio" name="e";>꽤 자주</input></label>
+			</p>
+			<p>
+				<label><input type="radio" name="e";>매우 자주</input></label>
+			</p>
+		</div>
+	<div id="footer-area" class="section">
+		<a class= "btn" href ='./test8.html'><<</a>
+		<a class= "btn" href ='./test10.html'>>></a>
+	</div>
+</body>
+</html>
