@@ -93,21 +93,21 @@
 	<div id="header-area" class="section">
 		<div class="home">
 			<h3>SFREE test</h3>
-				<a class="icon" style="background-image: url('images/home.png')" href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html"></a>
+				<a class="icon" style="background-image: url('images/home.png')" href="./main.html"></a>
 		</div>    
 	</div>
 	<div id="menu-area" class="section">
 		<ul>
-			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/test1.html"><li>Q1</li></a>
-			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/test2.html"><li>Q2</li></a>
-			<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/test3.html"><li>Q3</li></a>
-			<li>Q4</li>
-			<li>Q5</li>
-			<li>Q6</li>
-			<li>Q7</li>
-			<li>Q8</li>
-			<li>Q9</li>
-			<li>Q10</li>
+			<a href="./test1.html"><li>Q1</li></a>
+			<a href="./test2.html"><li>Q2</li></a>
+			<a href="./test3.html"><li>Q3</li></a>
+			<a href="./test4.html"><li>Q4</li></a>
+			<a href="./test5.html"><li>Q5</li></a>
+			<a href="./test6.html"><li>Q6</li></a>
+			<a href="./test7.html"><li>Q7</li></a>
+			<a href="./test8.html"><li>Q8</li></a>
+			<a href="./test9.html"><li>Q9</li></a>
+			<a href="./test10.html"><li>Q10</li></a>
 		</ul>
 	</div>
 	<div id="contents-area" class="section">
@@ -133,8 +133,8 @@
 			</p>
 		</div>
 	<div id="footer-area" class="section">
-		<a class= "btn" href ='file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/test2.html'><<</a>
-		<a class= "btn" href =''>>></a>
+		<a class= "btn" href ='./test2.html'><<</a>
+		<a class= "btn" href ='./test4.html'>>></a>
 	</div>
 </body>
 </html>
