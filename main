@@ -4,9 +4,9 @@
 	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
 	<style>
 		* { }
-		body { 
+		body {
  		  margin: 0; padding: 0;
- 		  background-image: url("file:///C:/Users/segye/Desktop/웹프로그래밍/웹프%20프로젝트/images/나뭇잎추상.png");
+ 		  background-image: url("https://user-images.githubusercontent.com/39898180/41355758-37e65a30-6f5d-11e8-8726-f7e3933ae806.png");
  		  background-repeat: no-repeat;
  		  background-size: 100% 100%;
  		  background-position: center;
@@ -18,7 +18,7 @@
 
 		#menu{
 			width: 10%;	height: 5%;
-			background-image: url('images/menu.png');
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355756-3787da00-6f5d-11e8-989b-3344fc213b92.png');
 			position: absolute;
 			top: 7%;	right: 5%;
 			background-repeat: no-repeat;
@@ -28,10 +28,10 @@
 		#character{
 			width: 70%; height: 40%;
 			text-align: center;
-			margin: auto;	
+			margin: auto;
 			position: absolute;
 			top: 20%;	left: 15%;
-			background-image: url('images/tree.png');
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355757-37b73eee-6f5d-11e8-8525-dfc4d5fd9342.png');
 			background-repeat: no-repeat;
  		 	background-size: 100% 100%;
 		}
@@ -44,18 +44,18 @@
 			position: absolute;
 			bottom: 5%;	left: 10%;
 			font-size: 2em;
-			padding-top: 5%; 
+			padding-top: 5%;
 			text-align: center;
 		}
 
 		#text p{margin: 10px;}
-		
+
 	</style>
 </head>
 <body>
-	<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/menu.html">
+	<a href="https://gyeongse.github.io/WP/menu.html">
 		<div id="menu">
-		</div>	
+		</div>
 	</a>
 
 	<div id="character"></div>
